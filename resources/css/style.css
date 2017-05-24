@@ -83,3 +83,36 @@ li {
 .mobile-nav.container {
   display: none;
 }
+
+.products, .business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product-image {
+  display: flex;
+  border: 4px solid black;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+.product-image img {
+  height: 9rem;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.product {
+  width: 30%
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
