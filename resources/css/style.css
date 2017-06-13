@@ -231,6 +231,7 @@ footer {
     display: block;
     margin: auto;
     padding-top: 2rem;
+    width: 90%;
   }
   .info {
     width: 90%;
